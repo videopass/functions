@@ -1,0 +1,19 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+   ]
+}
